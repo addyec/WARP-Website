@@ -1,0 +1,68 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: content-box;
+        }
+        
+        body {
+            background-color: #6f9fff;
+            height: 100%;
+        }
+        
+        a {
+          color: #6f9fff;
+        }
+
+        a:visited {
+          color: #002368;
+        }
+
+        .navigationBar {
+            height: 5vh;
+            width: 100%;
+            flex-direction: column; 
+            color: white;
+            background-color: #002368;
+            font-weight: bold;
+        }
+        
+        .title {
+          height: 50%;
+          font-size: 2vh;
+        }
+
+        .navigationButtons {
+          display: flex;
+          height: 50%;
+          width: 100%;
+        }
+
+        .tabButton {
+            width: 25%;
+            height: 100%;
+            color: white;
+            background-color: #002368;
+            outline: 3px solid #0055ff;
+            font-weight: bold;
+            font-size: min(2cqw, 13px);
+            text-overflow: ellipsis;
+        }
+
+        .tab {
+            height: 95vh;
+            width: 100%;
+            color: #002368;
+            display: none;
+        }
+
+        .visibleTab {
+            height: 95vh;
+            width: 100%;
+            color: #002368;
+            display: block;
+        }
+
+        .infoText {
+          padding: 10px;
+          background-color: #e1ebff;
+        }
